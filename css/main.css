@@ -1,0 +1,127 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  /*border: 1px solid pink;*/
+
+}
+
+/* This is the basic section */
+
+h1, h2, h3, h4, h5, h6 {
+  color: midnightblue;
+  text-align: center;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+h1 {
+  font-size: 7rem;
+  color: white;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+p {
+  color: midnightblue;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  font-size: 1.25rem;
+  margin: 1% 2%;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: midnightblue;
+
+}
+
+a:hover {
+  color:firebrick;
+}
+
+i {
+  color: midnightblue;
+  font-size: 5rem;
+  padding: 0 42%;
+}
+
+/* This is the page section */
+.top {
+  background-image: url("../images/prayerflags.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.para {
+  text-align: center;
+}
+
+.cta {
+  text-align: center;
+}
+
+.ctas {
+  margin-top: 5%;
+  background-color: midnightblue;
+  padding: 5% 0;
+}
+
+.ctas p, i {
+  color: white;
+}
+
+h3.ctatitle {
+  color: white;
+}
+
+.news {
+  margin-top: 5%;
+}
+
+.gallery {
+  background-image: url('/images/gallery/bridge.jpg');
+  background-size: cover;
+}
+
+div.gallery {
+  background-color: firebrick;
+  min-height: 30vh;
+}
+
+footer {
+  border-top: 4px firebrick solid;
+}
+
+.footer {
+  margin-top: 5%;
+
+}
+
+@media screen and (max-width: 600px) {
+
+  html {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+
+  }
+
+  .title {
+    width: 100%;
+  }
+
+}
