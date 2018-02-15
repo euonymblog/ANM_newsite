@@ -9,7 +9,8 @@ $(document).ready(function () {
     'images/gallery/school-crowd.JPG',
     'images/gallery/shelter.jpg',
     'images/gallery/prayerflags.jpg',
-    'images/gallery/kidsontree.jpg'
+    'images/gallery/kidsontree.jpg',
+    'images/gallery/b&w_kids.jpg'
 
   ];
 
