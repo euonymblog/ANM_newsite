@@ -10,7 +10,11 @@ $(document).ready(function () {
     'images/gallery/shelter.jpg',
     'images/gallery/prayerflags.jpg',
     'images/gallery/kidsontree.jpg',
-    'images/gallery/b&w_kids.jpg'
+    'images/gallery/b&w_kids.jpg',
+    'images/gallery/women.jpg',
+    'images/gallery/band.jpg',
+    'images/gallery/festival.jpg'
+
 
   ];
 
