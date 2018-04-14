@@ -2,21 +2,58 @@
 layout: default
 title: Events and Announcements
 ---
-<h2>Events and Announcements</h2>
-
+<div>
+  <h2>Posts</h2>
+</div>
 
 <div class="grid">
- <div class="blogPost col-6_sm-12">
-   {% for post in site.posts %}
-   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-   <p class="blogDetails">
-     {{ post.category }}
-  </p>
-  <p class="blogDetails"> {{ post.date | date: '%B %d, %Y' }} </p>
-   <p> {{ post.excerpt }} </p>
- </div>
+  <div class="col-4_sm-12">
+  <div class="catHeader">
+    <h3>Events</h3>
+  </div>
 
- {% endfor %}
+  {% for post in site.categories.Events %}
+     <div class="blogPost col-_sm-12">
+
+       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+      <p class="blogDetails"> {{ post.date | date: '%B %d, %Y' }} </p>
+       <p> {{ post.excerpt }} </p>
+     </div>
+  {% endfor %}
+</div>
+
+<div class="col-4_sm-12">
+  <div class="catHeader">
+    <h3>The schools</h3>
+  </div>
+
+  {% for post in site.categories.Schools %}
+     <div class="blogPost col-_sm-12">
+
+       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+      <p class="blogDetails"> {{ post.date | date: '%B %d, %Y' }} </p>
+       <p> {{ post.excerpt }} </p>
+     </div>
+  {% endfor %}
+</div>
+
+<div class="col-4_sm-12">
+  <div class="catHeader">
+    <h3>Announcements</h3>
+  </div>
+
+  {% for post in site.categories.Announcements %}
+     <div class="blogPost col-_sm-12">
+
+       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+       
+      <p class="blogDetails"> {{ post.date | date: '%B %d, %Y' }} </p>
+       <p> {{ post.excerpt }} </p>
+     </div>
+  {% endfor %}
+</div>
 
 </div>
 <div>

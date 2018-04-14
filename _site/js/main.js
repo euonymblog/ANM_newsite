@@ -2,20 +2,24 @@
 $(document).ready(function () {
 	//Put your code here
   var pictures = [
+    'images/gallery/b&w_kids.jpg',
+    'images/gallery/badges.jpg',
+    'images/gallery/bags.jpg',
+    'images/gallery/band.jpg',
+    'images/gallery/banner.jpg',
     'images/gallery/bridge.JPG',
+    'images/gallery/CadetTrek.JPG',
     'images/gallery/class.jpg',
+    'images/gallery/festival.jpg',
+    'images/gallery/flags.jpg',
+    'images/gallery/kidsontree.jpg',
     'images/gallery/nepal-landscape.jpg',
     'images/gallery/plaque.JPG',
+    'images/gallery/roy.jpg',
     'images/gallery/school-crowd.JPG',
+    'images/gallery/school-pic.JPG',
     'images/gallery/shelter.JPG',
-    'images/gallery/prayerflags.jpg',
-    'images/gallery/kidsontree.jpg',
-    'images/gallery/b&w_kids.jpg',
-    'images/gallery/women.jpg',
-    'images/gallery/band.jpg',
-    'images/gallery/festival.jpg',
-    'images/gallery/CadetTrek.JPG',
-    'images/gallery/school-pic.JPG'
+    'images/gallery/women.jpg'
 
 
   ];
