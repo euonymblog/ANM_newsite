@@ -7,13 +7,15 @@ $(document).ready(function () {
     'images/gallery/nepal-landscape.jpg',
     'images/gallery/plaque.JPG',
     'images/gallery/school-crowd.JPG',
-    'images/gallery/shelter.jpg',
+    'images/gallery/shelter.JPG',
     'images/gallery/prayerflags.jpg',
     'images/gallery/kidsontree.jpg',
     'images/gallery/b&w_kids.jpg',
     'images/gallery/women.jpg',
     'images/gallery/band.jpg',
-    'images/gallery/festival.jpg'
+    'images/gallery/festival.jpg',
+    'images/gallery/CadetTrek.JPG',
+    'images/gallery/school-pic.JPG'
 
 
   ];

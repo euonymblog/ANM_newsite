@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+
+<div>
+  <div>
+    <h3 class="ctatitle">{{ post.title }}</h3>
+  </div>
+  <div>
+    <p>
+      {{ content }}
+    </p>
+  </div>
+  <div>
+    <p>
+      {{ post.category }}
+    </p>
+    <p>
+      {{ post.date | date: '%B %d, %Y' }}
+    </p>
+  </div>
+</div>

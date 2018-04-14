@@ -1,0 +1,25 @@
+---
+layout: default
+title: Events and Announcements
+---
+<h1>Events and Announcements</h1>
+
+<div>
+
+ {% for post in site.posts %}
+
+ <div class="blog-post">
+   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+   <p>
+     {{ post.category }}
+  </p>
+  <p> {{ post.date | date: '%B %d, %Y' }} </p>
+   <p> {{ post.excerpt }} </p>
+ </div>
+
+ {% endfor %}
+
+</div>
+<div>
+  <a href="/index.html"><h4>Return to front page</h4></a>
+</div>
