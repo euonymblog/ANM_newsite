@@ -5,21 +5,24 @@ layout: default
 
 <div>
   <div>
-    <h3 class="ctatitle">{{ post.title }}</h3>
+    <h3>{{ page.title }}</h3>
   </div>
   <div>
     <p>
       {{ content }}
     </p>
   </div>
-  <div class="itemImage itemField" style="background-image: url('{{ post.image }}'); background-position: center; background-size: cover; background-repeat: none;">
+  <div class="itemImage" style="background-image: url('{{ page.image }}'); background-position: center; background-size: cover; background-repeat: none;">
   </div>
   <div>
-    <p>
-      {{ post.category }}
+    <p class="blogDetails">
+      Category: {{ page.category }}
     </p>
-    <p>
-      {{ post.date | date: '%B %d, %Y' }}
+    <p class="blogDetails">
+      Date: {{ page.date | date: '%B %d, %Y' }}
     </p>
   </div>
+</div>
+<div>
+  <a href="/index.html"><h4>Return to front page</h4></a>
 </div>
