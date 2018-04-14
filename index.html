@@ -13,7 +13,7 @@ layout: default
       <a href="#photos" class="font">Photos</a>
     </div>
     <div class="col-3_sm-6">
-      <a href="#events" class="font">Events</a>
+      <a href="#events" class="font">News</a>
     </div>
   </header>
 
@@ -114,8 +114,8 @@ layout: default
   </div>
 
   <section class="news">
-    <a name="photos"></a>
-    <h2>Photos</h2>
+    <a name="photos"><h2>Photos</h2></a>
+
     <div class="grid">
       <div class="col-3_sm-12 gallery gallery1">
 
@@ -134,14 +134,12 @@ layout: default
       </div>
     </div>
 
-
-
   </section>
 
   <div>
     <div class="mobileHeader">
-      <a name="events"></a>
-      <h2>What's going on</h2>
+      <a name="events" href="/blog.html">
+      <h2>News</h2></a>
     </div>
 
 
@@ -150,7 +148,11 @@ layout: default
         {% for post in site.categories.Events limit:1 %}
           <a href="{{ post.url }}"><h4 class="editable">{{ post.title}}</h4></a>
           <p> {{ post.excerpt }}</p>
-
+          <div class="readMore">
+            <a href="{{ post.url }}" ><p>
+              Read more here
+            </p></a>
+          </div>
         {% endfor %}
 
       </div>
@@ -158,6 +160,11 @@ layout: default
         {% for post in site.categories.Schools limit:1 %}
           <a href="{{ post.url }}"><h4 class="editable">{{ post.title}}</h4></a>
           <p> {{ post.excerpt }}</p>
+          <div class="readMore">
+            <a href="{{ post.url }}" ><p>
+              Read more here
+            </p></a>
+          </div>
 
         {% endfor %}
 
@@ -166,13 +173,18 @@ layout: default
         {% for post in site.categories.Announcements limit:1 %}
           <a href="{{ post.url }}"><h4 class="editable">{{ post.title}}</h4></a>
           <p> {{ post.excerpt }}</p>
+          <div class="readMore">
+            <a href="{{ post.url }}" ><p>
+              Read more here
+            </p></a>
+          </div>
 
         {% endfor %}
 
       </div>
     </div>
     <div>
-      <a href="/blog.html"><h3>Read all posts</h3></a>
+      <a href="/blog.html"><h3><em>Click here to read all posts</em></h3></a>
     </div>
   </div>
 
