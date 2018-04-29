@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Buy a brick - or many more!
+title: Buy a brick - or more!
 category: Schools
 date: 2018-04-29 00:00:00
 ---
