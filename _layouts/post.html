@@ -1,18 +1,20 @@
 ---
 layout: default
 ---
+<header class="grid">
+  <div class="col-2_sm-6">
+    <a href="/index.html" class="font">Home</a>
+  </div>
 
+  <div class="col-2_sm-6">
+    <a href="mailto:aidenepalmagnoac@gmail.com?Subject=Website%20enquiry" class="font">Contact</a>
+  </div>
+</header>
 
-<div>
+<div class="blogTitle">
+
   <div>
     <h3>{{ page.title }}</h3>
-  </div>
-  <div>
-    <p>
-      {{ content }}
-    </p>
-  </div>
-  <div class="itemImage" style="background-image: url('{{ page.image }}'); background-position: center; background-size: cover; background-repeat: none;">
   </div>
   <div>
     <p class="blogDetails">
@@ -22,7 +24,13 @@ layout: default
       Date: {{ page.date | date: '%B %d, %Y' }}
     </p>
   </div>
-</div>
-<div>
-  <a href="/index.html"><h4>Return to front page</h4></a>
+
+  <div>
+    <p>
+      {{ content }}
+    </p>
+  </div>
+  <div class="itemImage" style="background-image: url('{{ page.image }}'); background-position: center; background-size: cover; background-repeat: none;">
+  </div>
+
 </div>

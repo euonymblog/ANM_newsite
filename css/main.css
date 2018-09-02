@@ -35,7 +35,7 @@ p {
   color: midnightblue;
   font-family: 'Open Sans', sans-serif;
   text-align: justify;
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin: 1% 2%;
 }
 
@@ -43,17 +43,20 @@ a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: midnightblue;
-
 }
 
 a:hover {
-  color:firebrick;
+  color: firebrick;
 }
 
 i {
   color: midnightblue;
   font-size: 5rem;
   padding: 0 42%;
+}
+
+.link {
+  color: firebrick
 }
 
 /* This is the page section */
@@ -83,6 +86,7 @@ header {
   background-color: midnightblue;
 }
 
+
 .para {
   text-align: center;
 }
@@ -101,9 +105,16 @@ header {
   color: white;
 }
 
+.ctatitle h3 {
+  color: white;
+}
+
 h3.ctatitle {
   color: white;
 }
+ h2.ctatitle {
+   color:white;
+ }
 
 .news {
   margin-top: 5%;
@@ -126,6 +137,45 @@ footer {
 .footer {
   margin-top: 5%;
 
+}
+
+button{
+  background:midnightblue;
+  color:white;
+  border:none;
+  position:relative;
+  font-size:1rem;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+.readMore a {
+  color: white;
 }
 
 /* This is the blog section */
@@ -156,6 +206,16 @@ footer {
   margin-top: 2%;
 }
 
+.blogTitle {
+  border-top: 4px solid midnightblue;
+}
+
+.eventsTitle {
+  border-top: 4px solid midnightblue;
+}
+
+
+
 /* This is the photo section */
 
 
@@ -168,12 +228,12 @@ footer {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 
   }
 
@@ -183,7 +243,7 @@ footer {
   }
 
   h4 {
-    font-size: 1.5rem;
+    font-size: 0.75rem;
   }
 
   .title {
@@ -191,7 +251,7 @@ footer {
   }
 
   p {
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 
   header {
@@ -212,6 +272,10 @@ footer {
     margin: 0 0;
     align-content: center;
 
+  }
+
+  button {
+    font-size: 0.5rem;
   }
 
 }
