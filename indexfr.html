@@ -1,6 +1,7 @@
 ---
 layout: default
-lang: en
+lang: fr
+permalink: /fr/index
 ---
 <body class="home">
   <header class="grid">
@@ -8,16 +9,16 @@ lang: en
       <a href="/index.html" class="font">Home</a>
     </div>
     <div class="col-2_sm-6">
-      <a href="#get_involved" class="font">Get involved</a>
+      <a href="#get_involved" class="font">Participer</a>
     </div>
     <div class="col-2_sm-6">
-      <a href="#our_story" class="font">Our story</a>
+      <a href="#our_story" class="font">Histoire</a>
     </div>
     <div class="col-2_sm-6">
       <a href="#photos" class="font">Photos</a>
     </div>
     <div class="col-2_sm-6">
-      <a href="#events" class="font">News</a>
+      <a href="#events" class="font">Nouvelles</a>
     </div>
     <div class="col-2_sm-6">
       <a href="mailto:aidenepalmagnoac@gmail.com?Subject=Website%20enquiry" class="font">Contact</a>
@@ -27,7 +28,7 @@ lang: en
   <div class="title">
     <h1>Aide Népal Magnoac</h1>
     <div class="ctatitle">
-      <h3>"Better to light a candle than complain about the dark"</h3>
+      <h3>"Allumer une bougie au lieu de rester au noir"</h3>
     </div>
 
   </div>
@@ -36,7 +37,7 @@ lang: en
 
   <div class="editable">
     <p>
-      After the devastating earthquakes in 2015, a group of friends got together to raise funds to rebuild the school in Taruka, which had been destroyed. Since then, strong bonds of friendship have been forged between the Magnoac area of the French Pyrenees and communities in the Himalayas.
+      Apres le tremblement de terre devasteur en 2015, une bande d'amis se sont unis pour collectioner des fonds avec le but de reconstruir l'ecole de Taruka, detruite a l'epoque. Depuis lors, les liens d'amitie ont ete crees entre la region Magnoac en France et les communautes nepalais.
     </p>
   </div>
 
@@ -48,11 +49,11 @@ lang: en
         <i class="fas fa-euro-sign"></i>
       </div>
       <div class="cta">
-        <h3 class="ctatitle">Donate</h3>
+        <h3 class="ctatitle">Donner</h3>
       </div>
       <div class="editable">
         <p class="para">
-          As a volunteer-run organisation, every penny you give will go to help people in Nepal
+          Nous sommes tous les benevoles, alors chaque sou sera dedies aux communautes nepalais.
         </p>
       </div>
       </a>
@@ -64,11 +65,11 @@ lang: en
         <i class="far fa-handshake"></i>
       </div>
       <div class="cta">
-        <h3 class="ctatitle">Volunteer</h3>
+        <h3 class="ctatitle">Participer</h3>
       </div>
       <div class="editable">
         <p class="para">
-          We're looking for people living in the Magnoac to help run the association. Get in touch to find out more.
+          Nous cherchons des Magnoacais pour aider avec l'administration. Contactez-nous pour vous informer.
         </p>
       </div>
       </a>
@@ -80,11 +81,11 @@ lang: en
         <i class="far fa-envelope"></i>
       </div>
       <div class="cta">
-        <h3 class="ctatitle">Stay in touch</h3>
+        <h3 class="ctatitle">Soyez informe</h3>
       </div>
       <div class="editable">
         <p class="para">
-          Sign up for our newsletter to hear about our events, appeals and stories from the schools.
+          Incrivez-vous a notre list email pour rester informer de tous les nouvelles sur Aide Nepal Magnoac.
         </p>
       </div>
       </a>
@@ -94,7 +95,7 @@ lang: en
   <div>
     <div>
       <a name="our_story"></a>
-      <h2>Our Story</h2>
+      <h2>Notre histoire</h2>
     </div>
 
     <div>
@@ -132,7 +133,7 @@ lang: en
     <div class="grid">
       <div class="col-12_sm-12 editable">
         {% for post in site.posts limit:3 %}
-          <a href="{{ post.url }}"><h4 class="editable">{{ post.title}}</h4></a>
+          <a href="{{ post.permalink }}"><h4 class="editable">{{ post.title}}</h4></a>
           <p class="blogDate"> {{ post.date | date: '%d %B, %Y' }} </p>
           <p> {{ post.excerpt }}</p>
           <div class="readMore">

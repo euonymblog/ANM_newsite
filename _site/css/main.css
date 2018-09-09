@@ -65,7 +65,7 @@ header {
   background-color: white;
   text-align: center;
   padding-top: 1%;
-  font-size: 2rem;
+  font-size: 1rem;
   display:none;
 
 }
@@ -181,6 +181,10 @@ button:hover:before,button:hover:after{
   color: white;
 }
 
+.languageid {
+  text-align: left;
+}
+
 /* This is the blog section */
 
 .itemImage {
@@ -215,6 +219,10 @@ button:hover:before,button:hover:after{
 
 .eventsTitle {
   border-top: 4px solid midnightblue;
+}
+
+.languageid {
+  text-align: left;
 }
 
 

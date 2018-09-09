@@ -1,11 +1,34 @@
----
-layout: default
-lang: en
----
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.1/gridlex.min.css" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua|Open+Sans" rel="stylesheet" />
+
+  <link href="/fr/css/main.css" rel="stylesheet" type="text/css" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111776555-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111776555-2');
+</script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Aide Nepal Magnoac</title>
+  <meta name="description" content="Raising money to rebuild schools in Nepal destroyed in the 2015 earthquake" />
+  <meta name="keywords" content="Nepal, earthquake, school, help, volunteer, donate, rebuild, France, Magnoac" />
+
+
+</head>
 <body class="home">
   <header class="grid">
     <div class="col-2_sm-6">
-      <a href="/index.html" class="font">Home</a>
+      <a href="/fr/index.html" class="font">Home</a>
     </div>
     <div class="col-2_sm-6">
       <a href="#get_involved" class="font">Get involved</a>
@@ -124,31 +147,59 @@ lang: en
 
   <div>
     <div class="mobileHeader ctas">
-      <a name="events" href="/blog.html">
+      <a name="events" href="/fr/blog.html">
       <h2 class="ctatitle">Latest News</h2></a>
     </div>
 
 
     <div class="grid">
       <div class="col-12_sm-12 editable">
-        {% for post in site.posts limit:3 %}
-          <a href="{{ post.url }}"><h4 class="editable">{{ post.title}}</h4></a>
-          <p class="blogDate"> {{ post.date | date: '%d %B, %Y' }} </p>
-          <p> {{ post.excerpt }}</p>
+        
+          <a href="/fr/as-new-sale/"><h4 class="editable">Vide-dressing 29/09</h4></a>
+          <p class="blogDate"> 01 September, 2018 </p>
+          <p> <p>Vous avez des vetements trop grand ou trop petit? Si ils sont de bonnes condition, vous pouvez les donner a l”aide Nepal pour notre Vice Dressing le 29 septembre.</p>
+
+</p>
           <div class="readMore">
             <button>
-              <a href="{{ post.url }}" >
+              <a href="/fr/as-new-sale/" >
                   Read more here
               </a>
             </button>
 
           </div>
-          {% endfor %}
+          
+          <a href="/fr/announcements/2018/04/29/planning-meeting.html"><h4 class="editable">Planning meeting</h4></a>
+          <p class="blogDate"> 29 April, 2018 </p>
+          <p> <p>We held a very enjoyable and productive meeting on 9 March to agree a programme of events for this year.  A big thank you to everyone who attended, and who contributed to the wealth of good ideas discussed: and a particular word of thanks to all who volunteered (or were volunteered) to help with our various activities.  We hope you will find the programme to be sufficiently varied to offer something of interest to everyone. Upcoming events include a Garden Event in the summer and and Auction Day on 23 September. Keep your eyes open for more information soon.</p>
+</p>
+          <div class="readMore">
+            <button>
+              <a href="/fr/announcements/2018/04/29/planning-meeting.html" >
+                  Read more here
+              </a>
+            </button>
+
+          </div>
+          
+          <a href="/fr/schools/2018/04/29/buy-a-brick-or-more.html"><h4 class="editable">Buy a brick - or more!</h4></a>
+          <p class="blogDate"> 29 April, 2018 </p>
+          <p> <p>We are now ordering material to rebuild another school destroyed by the 2015 earthquakes. Each 4-room school, with toilet and shower, requires 8000 bricks. <br /><br />£2 will buy you 10 bricks, so why not pledge £20 or more to really make a difference? You can pledge <a href="https://www.justgiving.com/crowdfunding/aidenepalmagnoac">online</a>.</p>
+</p>
+          <div class="readMore">
+            <button>
+              <a href="/fr/schools/2018/04/29/buy-a-brick-or-more.html" >
+                  Read more here
+              </a>
+            </button>
+
+          </div>
+          
         </div>
       </div>
     </div>
     <div>
-      <a href="/blog.html"><h4><em>Click here to read all posts</em></h4></a>
+      <a href="/fr/blog.html"><h4><em>Click here to read all posts</em></h4></a>
     </div>
   </div>
 
@@ -194,7 +245,7 @@ lang: en
         </div>
         <div class="col-3">
           <p>
-            <a href="/index.html">English</a>/<a href="/fr/index.html">Fran&#231;ais</a>
+            <a href="/fr/index.html">English</a>/<a href="/fr/index.html">Fran&#231;ais</a>
           </p>
         </div>
       </div>
@@ -204,3 +255,4 @@ lang: en
 </body>
 
 </html>
+
