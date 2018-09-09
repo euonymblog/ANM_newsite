@@ -2,7 +2,9 @@ categories:
   - Events
   - Schools
   - Announcements
-languages: ["en", "fr"]
+languages:
+  - en
+  - fr
 default_lang: "en"
-exclude_from_localizations: ["javascript", "images", "css"]
+exclude_from_localization: ["javascript", "images", "css", "fonts"]
 parallel_localization: true

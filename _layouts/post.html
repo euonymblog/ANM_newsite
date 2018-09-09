@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+{% for lang in site.languages %}
+  {{lang}}
+{% endfor %}
 <header class="grid">
   <div class="col-2_sm-6">
     <a href="/index.html" class="font">Home</a>
@@ -12,6 +15,7 @@ layout: default
 </header>
 
 <div class="blogTitle">
+
 
   <div>
     <h3>{{ page.title }}</h3>

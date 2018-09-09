@@ -4,7 +4,7 @@ title: 'As-new sale, 29/09'
 category: Events
 date: 2018-09-01 00:00:00
 lang: en
-permalink: /as-new-sale/
+ref: asnew
 ---
 
 Is your wardrobe full to bursting? Do you need to get rid of those dresses and trousers that just don't quite fit? If they are in 'as new' condition, why not donate them to our As-new Sale in September, and help them find a new home?

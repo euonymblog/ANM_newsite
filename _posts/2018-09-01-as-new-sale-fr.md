@@ -4,10 +4,10 @@ title: 'Vide-dressing 29/09'
 category: Events
 date: 2018-09-01 00:00:00
 lang: fr
-permalink: /as-new-sale/
+ref: asnew
 ---
 
-Vous avez des vetements trop grand ou trop petit? Si ils sont de bonnes condition, vous pouvez les donner a l"aide Nepal pour notre Vice Dressing le 29 septembre.
+Vous avez des vetements trop grand ou trop petit? Si ils sont de bonne condition, vous pouvez les donner a l"aide Nepal pour notre Vice Dressing le 29 septembre.
 
 Pur donner *[contactez-nous](mailto:aidenepalmagnoac@gmail.com?subject=As-new%20sale%2FVide-dressing)* pour prendre rendez-vous.
 
