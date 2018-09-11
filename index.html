@@ -131,9 +131,8 @@ lang: en
 
     <div class="grid">
       <div class="col-12_sm-12 editable">
-        {% assign posts=site.posts | where: "lang", page.lang %}
         {% for post in site.posts limit:3 %}
-          <a href="{{ post.url | prepend site.baseurl }}"><h4 class="editable">{{ post.title}}</h4></a>
+          <a href="{{ post.url }}"><h4 class="editable">{{ post.title}}</h4></a>
           <p class="blogDate"> {{ post.date | date: '%d %B, %Y' }} </p>
           <p> {{ post.excerpt }}</p>
           <div class="readMore">

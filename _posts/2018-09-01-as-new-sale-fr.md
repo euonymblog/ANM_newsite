@@ -7,12 +7,12 @@ lang: fr
 ref: asnew
 ---
 
-Vous avez des vetements trop grand ou trop petit? Si ils sont de bonne condition, vous pouvez les donner a l"aide Nepal pour notre Vice Dressing le 29 septembre.
+Vous avez des v&ecirc;tements trop grand ou trop petit? S'ils sont de bonne condition, vous pouvez les donner a l'Aide N&eacute;pal pour notre Vide Dressing le 29 s&eacute;ptembre.
 
-Pur donner *[contactez-nous](mailto:aidenepalmagnoac@gmail.com?subject=As-new%20sale%2FVide-dressing)* pour prendre rendez-vous.
+Si vous avez des choses &agrave; donner *[contactez-nous](mailto:aidenepalmagnoac@gmail.com?subject=As-new%20sale%2FVide-dressing)* pour prendre rendez-vous.
 
-Si vous voudriez nous donner un coup de main pour l'organisation de l'evenement,  *[envoyez-nous un email](mailto:aidenepalmagnoac@gmail.com?subject=Je%20veux%20aider!)* to let us know you can help out.
+Si vous voudriez nous donner un coup de main pour l'organisation de l'&eacute;v&eacute;nement,  *[envoyez-nous un email](mailto:aidenepalmagnoac@gmail.com?subject=Je%20veux%20aider!)*.
 
-L'evenement aura lieu le 29 septembre dans la Salle des Fetes, a Castelnau-Magnoac, 10-16. Venez nombreux et regalez vous, avec the, cafe, sandwiches etc.
+L'&eacute;v&eacute;nement aura lieu le 29 s&eacute;ptembre dans la Salle des F&ecirc;tes, &agrave; Castelnau-Magnoac, 10h-16h. Venez nombreux et r&eacute;galez vous avec th&eacute;, caf&eacute;, sandwiches etc.
 
 ![](/uploads/as-new-sale-with-leaves.jpeg)
