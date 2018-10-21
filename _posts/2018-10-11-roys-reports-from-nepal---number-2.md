@@ -23,7 +23,7 @@ The village was severely hit by the 2015 earthquakes. Most of the houses were da
 
 ![](/uploads/roysreport2i.jpg)
 
-There are 150 children in the village. They can start school at 3 if the family can afford to send them. The 5 teachers are all funded by the village. I had a few minuted with the council and head teacher. What they would love is a 5 or 6 room, single storey building with an office, toilet and shower. Unusually there is quite a bit of flat space available so it is possible. ALL we need is &pound;20,000!
+There are 150 children in the village. They can start school at 3 if the family can afford to send them. The 5 teachers are all funded by the village. I had a few minuted with the council and head teacher. What they would love is a 5 or 6 room, single storey building with an office, toilet and shower. Unusually there is quite a bit of flat space available so it is possible. ALL we need is £20,000!
 
 Having talked school we handed out the knitted hats. Initially the children were reluctant to accept the gifts, not something they had encountered before. After a while they relaxed and they definitely enjoyed being filmed and photographed.
 
