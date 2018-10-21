@@ -5,6 +5,9 @@ category: Announcements
 date: 2018-10-20 00:00:00
 lang: en
 ref: nepalreport5
+content:
+    width: 120
+    height: 90
 ---
 
 "An Ibuprofen day".
