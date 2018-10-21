@@ -9,7 +9,7 @@ ref: nepalreport3
 
 Having had enough of Kathmandu I took myself off for a two day walk-about in the hills around Nagarkot.
 
-It is potato harvest time and the fields are full of ladies bringing in the spuds. Much of what they grow is for family consumption, the surplus going to market. A 60kg sack sells for NR2000, about &pound;13.
+It is potato harvest time and the fields are full of ladies bringing in the spuds. Much of what they grow is for family consumption, the surplus going to market. A 60kg sack sells for NR2000, about £13.
 
 ![](/uploads/roysreport3a.jpg)
 
