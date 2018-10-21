@@ -33,7 +33,7 @@ Today, on my way out, I stopped for a brew and spotted two youngsters heading up
 
 My mood was restored when, in the jungle, I came across two little chaps having a picnic while minding the chickens.
 
-![](blob:https://app.cloudcannon.com/a0860a71-4602-4499-abbd-0f8b00342aae)
+![](/uploads/roysreport3h-1.jpg)
 
 Magic!
 
