@@ -19,6 +19,8 @@ content:
 
 Clear sky this morning and our first real view of the distant Himalaya. We left Ringmu, 2720m, at just after 08:00 and climbed steadily to the Taksindu La (Pass) 3028m. Just over the pass we met some young monks cleaning mani stones.
 
+![](/uploads/roysreport5a-1.jpg)
+
 A little further down the trail Taksidu Gompa came into view. We took lunch in Taksidu and had a look around the Gompa where the young monks were just washing their plates after the first meal of the day.
 
 The afternoon was all down hill, not my favorite direction. By the time we reached the Shangrila Lodge in Nunthala 2194m, my knees were on fire! At one stage I considered reverting to cavalry mode while Jim fancied giving portering a bash!
