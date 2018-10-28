@@ -5,14 +5,6 @@ category: Announcements
 date: 2018-10-27 00:00:00
 lang: en
 ref: nepalreport7
-image_path:
-  width: '120'
-  height: '90'
-  resize_style: contain
-  expandable: true
-content:
-  width: '120'
-  height: '90'
 ---
 
 Thame, the jewel in the Khumbu.
